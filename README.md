@@ -88,7 +88,7 @@ This will:
 python app.py
 ```
 
-The application will start on `http://localhost:5000`
+The application will start on `http://localhost:5001`
 
 Open your browser and navigate to the URL to start chatting!
 
