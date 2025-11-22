@@ -1,0 +1,366 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you with college information today?",
+        "Hi there! What would you like to know about the college?",
+        "Greetings! I'm here to assist you with any college queries."
+      ]
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+        "What documents are required during admission?",
+        "How can I get a bonafide certificate?",
+        "How can I apply for a transcript or migration certificate?",
+        "required documents",
+        "documents for admission",
+        "which documents to bring",
+        "document verification"
+      ],
+      "responses": [
+        "Documents include mark sheets, ID proof, photographs, and caste certificate if applicable.",
+        "You can apply for a bonafide certificate through the college office.",
+        "Submit an application at the admin office or through the college portal."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see you",
+        "farewell",
+        "talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Feel free to come back if you have more questions.",
+        "Take care! Visit us anytime for college information."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission process",
+        "how to get admission",
+        "admission requirements",
+        "application process",
+        "admission criteria",
+        "eligibility for admission",
+        "when are admissions open",
+        "What is the admission process?",
+        "How can I apply for admission?",
+        "When does admission start?",
+        "What is the eligibility criteria for admission ?"
+      ],
+      "responses": [
+        "Admissions are open from May to July. You need 12th grade pass certificate with minimum 60% marks. Application forms are available online on the college website.",
+        "To get admitted, you must have passed 12th grade with at least 60% marks. The admission process includes online application, document verification, and seat allocation.",
+        "Admission requirements: 12th pass with 60% marks minimum. Apply online between May and July. Bring original documents for verification."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are offered",
+        "available courses",
+        "which programs are available",
+        "course list",
+        "academic programs",
+        "departments"
+      ],
+      "responses": [
+        "We offer B.Tech programs in three domains.",
+        "Our courses include B.Tech (Computer Science, Electronics and Communication and Electrical Engineering)."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fee structure",
+        "tuition fees",
+        "how much does it cost",
+        "fee payment",
+        "scholarship",
+        "financial aid",
+        "college fees",
+        "What are the tuition fees?"
+      ],
+      "responses": [
+        "B.Tech program fees: ₹ 2,35,200 per year. Scholarships are available for meritorious students and those from economically weaker sections.",
+        "Annual tuition fee is ₹2,35,200 per year for B.Tech. We offer scholarships for top scorers and need-based financial aid.",
+        "Fee structure: ₹2,35,200 per annum for B.Tech. Multiple scholarship schemes are available for eligible students."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "college facilities",
+        "infrastructure",
+        "hostel",
+        "library",
+        "lab facilities",
+        "sports facilities",
+        "cafeteria",
+        "wifi"
+      ],
+      "responses": [
+        "We have well-equipped labs, a central library with 50,000+ books, separate hostels for boys and girls, sports complex, cafeteria, and high-speed WiFi campus.",
+        "Our facilities include modern labs, extensive library, comfortable hostels, sports grounds, dining facilities, and full campus WiFi coverage.",
+        "College facilities: advanced laboratories, digital library, accommodation facilities, sports arena, food courts, and seamless internet connectivity."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "contact information",
+        "phone number",
+        "email address",
+        "address",
+        "college location",
+        "how to reach"
+      ],
+      "responses": [
+        "You can contact the office through Landline: 011-27662880 and Email ID: office@fot.du.ac.in; dean_fot@du.ac.in"
+      ]
+    },
+    {
+      "tag": "network_connectivity",
+      "patterns": [
+        "Is Wi-Fi available?",
+        "network connectivity",
+        "wifi issues",
+        "internet on campus",
+        "network support"
+      ],
+      "responses": [
+        "Yes, high-speed Wi-Fi is available."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "academic calendar",
+        "semester schedule",
+        "examination dates",
+        "holidays",
+        "class schedule",
+        "term dates"
+      ],
+      "responses": [
+        "Academic year runs from August to May. Semester exams are in December (odd) and May (even). Detailed calendar is on the college portal.",
+        "Calendar: August to May academic year. Mid-semester exams in October/November, end-semester in December/May.",
+        "Academic schedule: Classes Aug-May, mid-semester exams Oct-Nov, final exams Dec (odd semester) and May (even semester)."
+      ]
+    },
+    
+    {
+      "tag": "faculty",
+      "patterns": [
+        "about faculty",
+        "teachers",
+        "professors",
+        "faculty members",
+        "teaching staff"
+      ],
+      "responses": [
+        "Our faculty consists of experienced professors with PhDs and industry experience.",
+        "We have qualified faculty with 80% PhD holders and industry expertise. Small class sizes ensure individual attention.",
+        "Excellent faculty team: PhD-qualified professors with academic and industry experience .",
+        "You can find the faculty list by clicking on the following link: https://fot.du.ac.in/Administration/Faculty"
+      ]
+    },
+    {
+      "tag": "Administrative_Committees",
+      "patterns": [
+        "about Administrative Committees",
+        "Committees in college",
+        "college committees",
+        "helpful",
+        "grateful"
+      ],
+      "responses": [
+        "You're welcome! Feel free to ask if you have more questions.",
+        "Happy to help! Let me know if you need anything else.",
+        "Glad I could assist! Come back anytime for more information."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Is hostel facility available?",
+        "How to apply for hostel?",
+        "hostel facility",
+        "how to apply for hostel",
+        "hostel fee",
+        "is hostel available",
+        "boys hostel",
+        "girls hostel"
+      ],
+      "responses": [
+        "Yes, hostels are provided but there are no separate hostels for BTech students.",
+        "You can apply for hostel during the admission process."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Library timings?",
+        "How many books can I issue?",
+        "library timings",
+        "library hours",
+        "how many books can I issue",
+        "library rules",
+        "library access"
+      ],
+      "responses": [
+        "Library is open from 9 AM to 8 PM.",
+        "Students can issue up to 3 books for 15 days."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "Does the college provide placements?",
+        "Does the college provide placement assistance?",
+        "placement assistance",
+        "placement record",
+        "which companies visit",
+        "placement cell",
+        "job opportunities",
+        "pre-placement training"
+      ],
+      "responses": [
+        "Yes, the college has a dedicated placement cell.",
+        "Yes, the college has a dedicated placement cell to assist students."
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "What is the college timing?",
+        "Where is the college located?",
+        "What facilities are available on campus?",
+        "college timing",
+        "working days",
+        "wifi on campus",
+        "id card",
+        "bonafide certificate",
+        "transfer certificate"
+      ],
+      "responses": [
+        "College timings are from 9:00 am to 6:00 pm",
+        "Faculty of Technology ,University of Delhi, Delhi-110007",
+        "Facilities include a library, labs, sports grounds, canteen, and Wi-Fi."
+      ]
+    },
+    {
+      "tag": "administrative_committees",
+      "patterns": [
+        "Anti-Ragging Committee",
+        "Anti-Smoking Committee",
+        "Committee for Differently-Abled",
+        "Departmental Committee",
+        "Disciplinary Committee",
+        "Extra Curriculum Activities - Sports - Recreation",
+        "Internal Admission Committee",
+        "Internal Assessment Monitoring Committee",
+        "Placement Committee",
+        "RTI Committee",
+        "Sexual Harassment Committee",
+        "SC/ST/OBC/EWS Cell",
+        "Students Grievance and Redressal Committee",
+        "Time Table Committee",
+        "Website Maintenance Committee",
+        "administrative committees",
+        "committee contacts",
+        "committee emails",
+        "college committees"
+      ],
+      "responses": [
+        "Anti-Ragging Committee E-Mail: arc@fot.du.ac.in",
+        "Anti-Smoking Committee E-Mail: asc@fot.du.ac.in",
+        "Committee for Differently-Abled E-Mail: cda@fot.du.ac.in",
+        "Departmental Committee E-Mail: dc@fot.du.ac.in",
+        "Disciplinary Committee E-Mail: disciplinary@fot.du.ac.in",
+        "Extra Curriculum Activities - Sports - Recreation E-Mail: ecasr@fot.du.ac.in",
+        "Internal Admission Committee E-Mail: iac@fot.du.ac.in",
+        "Internal Assessment Monitoring Committee E-Mail: iamc@fot.du.ac.in",
+        "Placement Committee E-Mail: placement@fot.du.ac.in",
+        "RTI Committee E-Mail: rti@fot.du.ac.in",
+        "Sexual Harassment Committee E-Mail: shc@fot.du.ac.in",
+        "SC/ST/OBC/EWS Cell: SCSTOBCEWS@fot.du.ac.in",
+        "Students Grievance and Redressal Committee E-Mail: sgrc@fot.du.ac.in",
+        "Time Table Committee E-Mail: timetable@fot.du.ac.in",
+        "Website Maintenance Committee E-Mail: website@fot.du.ac.in"
+      ]
+    },
+    {
+      "tag": "previous_years_question_papers",
+      "patterns": [
+        "Where can I find all the question papers ?",
+        "previous year question papers",
+        "old question papers",
+        "past papers",
+        "where to find previous papers"
+      ],
+      "responses": [
+        "You can find all the previous questions papers on https://drive.google.com/drive/folders/1GknPi-0mSGIWPIicBrTRngaNBfDdvE3T?usp=drive_link"
+      ]
+    },
+    {
+      "tag": "study_material",
+      "patterns": [
+        "Where can i find all the study material (like Books , Class Notes ,etc.)"
+      ],
+      "responses": [
+        "You can find all the study material (like Books , Class Notes ,etc.) on the website developed by the first batch of F.o.T , click on - https://academicaid.in/ ."
+      ]
+    },
+    {
+      "tag": "department",
+      "patterns": [
+        "Which departments are under Faculty of Technology?",
+        "departments",
+        "department list",
+        "department information",
+        "which departments are there"
+      ],
+      "responses": [
+        "There are three departments under faculty of technology : Department of Computer Science and Engineering , Department of Electronics and Communication Engineering and Department of Electrical Engineering.",
+        "Department of Computer Science and Engineering: https://fot.du.ac.in/Departments/Computer-Science-and-Engineering ",
+        "Department of Electronics and Communication Engineering : https://fot.du.ac.in/Departments/Electronics-and-Communication-Engineering ",
+        "Department of Electrical Engineering : https://fot.du.ac.in/Departments/Electrical-Engineering"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it",
+        "helpful",
+        "grateful"
+      ],
+      "responses": [
+        "You're welcome! Feel free to ask if you have more questions.",
+        "Happy to help! Let me know if you need anything else.",
+        "Glad I could assist! Come back anytime for more information."
+      ]
+    }
+  ]
+}
+
