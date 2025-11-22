@@ -193,14 +193,14 @@ Address already in use
 
 ## Future Enhancements
 
-- [ ] Add more intents and responses
-- [ ] Implement sentiment analysis
-- [ ] Add multi-language support
-- [ ] Integrate with college database APIs
-- [ ] Add voice input/output
-- [ ] Implement user authentication
-- [ ] Create admin dashboard for logs
-- [ ] Add context awareness in conversations
+ Add more intents and responses
+ Implement sentiment analysis
+ Add multi-language support
+ Integrate with college database APIs
+ Add voice input/output
+ Implement user authentication
+ Create admin dashboard for logs
+ Add context awareness in conversations
 
 ## License
 
