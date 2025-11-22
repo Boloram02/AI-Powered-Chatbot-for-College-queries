@@ -45,7 +45,7 @@ college_chatbot/
 ### 1. Clone or Download the Project
 
 ```bash
-cd college_chatbot
+cd chatbot
 ```
 
 ### 2. Create Virtual Environment (Recommended)
