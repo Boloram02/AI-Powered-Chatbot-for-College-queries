@@ -204,7 +204,7 @@ Address already in use
 
 ## License
 
-This project is created for educational purposes (5th Semester College Project).
+This project is created for educational purposes.
 
 ## Author
 
